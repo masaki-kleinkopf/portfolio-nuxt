@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <NuxtLink to="/projects">Projects</NuxtLink>
-  </div>
+  <div>Welcome to my site</div>
 </template>
+
+<script setup></script>
