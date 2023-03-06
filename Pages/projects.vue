@@ -3,12 +3,11 @@
   <div v-if="data" v-for="project in data" class="container">
     <h1>{{ project.title }}</h1>
     <p>{{ project.description }}</p>
-    <!-- <p v-if="project.deployedLink">{{ project.deployedLink }}</p> -->
     <div class="linkContainer">
       <a :href="project.deployedLink" target="_blank">deployed site</a>
       <a :href="project.githubLink" target="_blank">github</a>
     </div>
-    <img v-if="project.imageUrl" :src="project.imageUrl" />
+    <img :src="project.imageUrl" />
   </div>
 </template>
 
