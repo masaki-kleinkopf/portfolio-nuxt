@@ -26,6 +26,7 @@ const query = groq`*[_type == "music"]{
     link,
     linkType
 }`;
-const { data, loading } = useSanityQuery(query);
+const { data } = useSanityQuery(query);
 if (data) console.log(data);
 </script>
+<style scoped lang="scss"></style>

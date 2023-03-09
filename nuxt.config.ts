@@ -3,4 +3,7 @@ export default defineNuxtConfig({
   sanity: {
     projectId: "gy4jmn24",
   },
+  imports: {
+    autoImport: true,
+  },
 });
